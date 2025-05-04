@@ -16,8 +16,8 @@ import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { Dialog } from 'primevue'
-
-library.add(faUserSecret, faGithub, faArrowLeft)
+import { faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+library.add(faUserSecret, faGithub, faArrowLeft, faSquareGithub)
 
 createApp(App)
   .component('font-awesome-icon', FontAwesomeIcon)

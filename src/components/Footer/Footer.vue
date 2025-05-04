@@ -2,13 +2,16 @@
   <section class="footer">
     <div class="footerContent">
       <p>
-        Desenvolvido por
+        &copy; {{ currentYear }} — Desenvolvido por
         <a href="https://github.com/jackelinepaula" target="_blank">@jackelinepaula</a>
       </p>
     </div>
   </section>
 </template>
-<script setup></script>
+<script setup>
+const date = new Date()
+const currentYear = date.getFullYear()
+</script>
 <style scoped>
 .footer {
   display: flex;

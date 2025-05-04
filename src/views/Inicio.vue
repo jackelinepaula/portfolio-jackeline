@@ -24,6 +24,9 @@ const router = useRouter()
         <br />
         Sempre <em>codando</em>, aprendendo e evoluindo.
       </p>
+      <a class="linkGithub" href="https://github.com/jackelinepaula" target="_blank">
+        <font-awesome-icon :icon="['fab', 'github']" />
+      </a>
     </div>
   </section>
   <section id="jornada" class="sectionAcademic">
@@ -75,7 +78,7 @@ const router = useRouter()
 }
 
 .aboutMe p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: 'Fira Mono';
   color: #dadada;
   text-align: center;
@@ -129,5 +132,27 @@ const router = useRouter()
   text-align: center;
   margin-top: 2rem;
   padding: 1rem;
+}
+
+.linkGithub {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: var(--medium-gray);
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  border: 1px solid var(--gray);
+
+  &:hover {
+    border: 1px solid #adadad;
+    transform: translateY(-2px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.linkGithub svg {
+  font-size: 1.8rem;
 }
 </style>

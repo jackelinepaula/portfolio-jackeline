@@ -52,8 +52,8 @@ const props = defineProps({
 }
 
 .card:hover {
-  transform: translateY(-2px); /* Sobe 8 pixels */
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2); /* Opcional: adiciona uma sombrinha */
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 .font-awesome-icon {
