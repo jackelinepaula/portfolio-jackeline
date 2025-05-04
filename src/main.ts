@@ -1,7 +1,7 @@
 import './styles/main.css'
 
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
-import router from './router'
+import router from './router.ts'
 import PrimeVue from 'primevue/config'
 import Aura from '@primeuix/themes/aura'
 import { createApp } from 'vue'
